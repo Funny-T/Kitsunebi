@@ -14,3 +14,10 @@ Renew Client used on Android 8.0 to 11, based on [eycorsican/kitsunebi-android](
 - [eycorsican/kitsunebi-android](https://github.com/eycorsican/kitsunebi-android)
 - [eycorsican/go-tun2socks](https://github.com/eycorsican/go-tun2socks)
 - [trojan-gfw/igniter-go-libs](https://github.com/trojan-gfw/igniter-go-libs)
+
+### Contribution
+welcome for your pull request with those requirements:
+ - language: `kotlin` preferred for android platform, `golang` only for native implementation
+ - style: clean code, no deprecated or dirty method
+ - sdk: complete support for api 28 and above
+ - commit: use at base branch [debug](https://github.com/rurirei/kitsunebi/tree/debug)
