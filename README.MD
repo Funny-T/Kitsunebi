@@ -1,4 +1,6 @@
 ## Kitsunebi
+![debug](https://github.com/rurirei/kitsunebi/workflows/debug/badge.svg?branch=debug) ![release](https://github.com/rurirei/kitsunebi/workflows/release/badge.svg?branch=build)
+
 Renew Client used on Android 8.0 to 11, based on [eycorsican/kitsunebi-android](https://github.com/eycorsican/kitsunebi-android)
 
 ### Features
