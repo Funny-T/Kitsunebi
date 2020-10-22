@@ -10,6 +10,8 @@
 
  ### paste running logs here or paste.ubuntu.com
  ```
+   <!-- call `adb logcat -s io.github.rurirei.kitsunebi GoLog ConnectivityService ActivityManager` -->
+
    <!-- paste it here -->
  ```
 
