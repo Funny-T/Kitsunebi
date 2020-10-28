@@ -1,13 +1,15 @@
-## Kitsunebi
+## Rewrite: Kitsunebi
 ![debug](https://github.com/rurirei/kitsunebi/workflows/debug/badge.svg?branch=debug) ![release](https://github.com/rurirei/kitsunebi/workflows/release/badge.svg?branch=build)
 
-Renew Client used on Android 8.0 to 11, based on [eycorsican/kitsunebi-android](https://github.com/eycorsican/kitsunebi-android)
+client on Android 8.0 up to 11, simply based and rewrite on [eycorsican/kitsunebi-android](https://github.com/eycorsican/kitsunebi-android). shorten name to `Re:Kit` (undefined).
 
 ### Features
-- Compatibility for v2ray-core v4.28.0+, so you can use `alterId 0` without forced VmessAEAD. To do this, add `vmessAEAD: false` at your Vmess client conf
-- Per-App list backup
+- Compatibility for v2ray-core v4.28.0-, so you can use `alterId 0` without forced vmess aead. To do this, add `vmessAEAD: false` at your vmess conf
+- Complete v2ray-core support
+- Per-App-Proxy List backup
 - Fake DNS
-- TODO
+- Local DNS (will)
+- TODO [#4](https://github.com/rurirei/kitsunebi/issues/4)
 
 ### Credits
 - [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core)
