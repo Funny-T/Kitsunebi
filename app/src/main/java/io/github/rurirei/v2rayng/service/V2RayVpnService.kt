@@ -153,6 +153,7 @@ class V2RayVpnService: VpnService(), IVPNService, ITun2socksService {
             } else {
                 addRoute("0.0.0.0", 0)
             }
+            addDisallowedApplication(BuildConfig.APPLICATION_ID)
             setMtu(1500)
             setSession(BuildConfig.APPLICATION_ID)
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
