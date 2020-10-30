@@ -65,7 +65,7 @@ class AppListActivity : AppCompatActivity() {
 
         thread(start = true) {
             var tmpAppList = ArrayList(packageManager.getInstalledPackages(PackageManager.GET_PERMISSIONS).filter {
-                it.requestedPermissions?.contains(Manifest.permission.INTERNET) ?: false
+                it.requestedPermissions?.contains(Manifest.permission.INTERNET) == true && it.packageName?.equals(BuildConfig.APPLICATION_ID, false) == false
             })
 
             when (perAppMode) {
