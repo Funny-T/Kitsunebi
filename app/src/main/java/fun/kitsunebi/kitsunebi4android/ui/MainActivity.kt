@@ -80,8 +80,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun startV2Ray() {
-        sharedPreferences.put(getString(R.string.is_enable_per_app_vpn), sharedPreferences.get(getString(R.string.is_enable_per_app_vpn), false))
-        sharedPreferences.put(getString(R.string.per_app_mode), sharedPreferences.get(getString(R.string.per_app_mode), "0"))
         V2RayServiceManager.startService(this)
     }
 
