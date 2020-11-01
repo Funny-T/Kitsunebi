@@ -71,7 +71,7 @@ class V2RayServiceManager {
             e.printStackTrace()
         }
 
-        if (Libv2ray.isV2rayRunning() && (context.sharedPreferences.get(PREF_PROXY_ONLY, false) || Libv2ray.isTun2socksRunning())) {
+        if (Libv2ray.getIsRunning()) {
             localBroadcastManager.sendBroadcast(Intent(ConstantUtil.BROADCAST.VPN_STARTED))
         } else {
             stopV2Ray()
