@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="title_server">Configuration file</string>
-    <string name="server_lab_remarks">remarks</string>
-    <string name="server_lab_content">Content</string>
-    <string name="menu_item_add_config">Add config</string>
-    <string name="menu_item_save_config">Save config</string>
-    <string name="menu_item_del_config">Delete config</string>
+    <string name="title_server">配置文件</string>
+    <string name="server_lab_remarks">备注</string>
+    <string name="server_lab_content">内容</string>
+    <string name="menu_item_add_config">添加配置</string>
+    <string name="menu_item_save_config">保存配置</string>
+    <string name="menu_item_del_config">删除配置</string>
 </resources>
